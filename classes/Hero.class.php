@@ -29,8 +29,9 @@ class Hero extends Character{
 						$this->health = $this->health - $damage;
 						echo "The Beast attacked! But the Hero got the time to block the attack with his Magic Shield! The damage caused is :" . $damage."<br>";
 						echo "The remaining health of the hero is:" . $this->health . "<br>";
-						return $magicShieldThisRound;
+						
 		}
+		return $magicShieldThisRound;
 	}
 	
 }
